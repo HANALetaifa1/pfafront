@@ -1,0 +1,12 @@
+.containerA{
+    display: flex;
+    margin-top: 10px;
+}
+/* .Others{
+    flex:4;
+} */
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}

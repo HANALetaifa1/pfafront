@@ -1,0 +1,18 @@
+
+
+
+
+.cons {
+    padding: 40px 40px 40px 40px;
+    /* border: 2px solide black; */
+    display: flex;
+}
+.tiltle{
+    text-align: center; 
+    padding-top: 20px;
+}
+.H1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }

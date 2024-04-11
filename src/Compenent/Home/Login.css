@@ -1,0 +1,46 @@
+/* .auth-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description-auth {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 500px;
+  }
+ 
+.ima {
+    width: 100%;
+    float: right;
+    margin-right: 60px;
+    margin-left: 100px;
+  }
+ Button{
+   align-self: center;
+  } */
+
+
+  .auth-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description-auth {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 500px;
+  }
+ 
+.ima {
+    width: 100%;
+    float: right;
+    margin-right: 60px;
+    margin-left: 100px;
+  }
+ Button{
+   align-self: center;
+  }

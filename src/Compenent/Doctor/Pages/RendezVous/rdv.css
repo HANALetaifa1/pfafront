@@ -1,0 +1,36 @@
+.entetrdv1{
+/* border:1px black solid; */
+
+padding-left: 300px;
+padding-bottom: 30px;
+/* padding-top: 50px; */
+padding-right: 300px;
+font-size:small;
+}
+
+
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    /* Ajustez la hauteur selon vos besoins */
+}
+
+.centered-container h1 {
+    text-align: center;
+}
+
+.centered-container .calendar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TimeM {
+    width: 350px;
+    height: 50px;
+}

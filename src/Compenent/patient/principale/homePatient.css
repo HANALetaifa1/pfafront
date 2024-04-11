@@ -1,0 +1,65 @@
+.hero-header1 {
+    background: url(../../Home/Images/blog-2.png) ;
+    background-size: cover;
+    opacity:80%;
+   height: 400px; 
+    
+}
+
+/* services */
+.serach1{
+    padding: 50px 50px 50Px 50px;
+}
+.services {
+    padding: 0 10%;
+}
+.title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #93d6d0;
+    text-transform: uppercase
+}
+.sub-title {
+    text-align: center;
+  
+    margin: 20px 0;
+}
+.list-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,20rem);
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.list-services .box {
+    padding: 30px;
+    background-color: #f3fbfa;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+.list-services .box h1 {
+    text-transform: uppercase;
+    color: #93d6d0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.list-services .box p {
+    font-size: 16px;
+}
+.list-services .box:hover{
+    background-color: #93d6d0;
+} 
+.list-services .box:hover h1 {
+    color: #fff;
+}
+.list-services .box:hover p {
+    color: #333;
+}
+@media (min-width: 576px) {
+    .team-item .row {
+        height: 350px;
+    }
+}

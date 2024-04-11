@@ -1,0 +1,80 @@
+/* Styles pour le composant Calendar */
+.calend{
+    padding-left:60px;
+    padding-top: 50px;
+    padding-bottom: 100px ;
+    padding-right:60px;
+}
+.rbc-calendar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    height: 600px;
+    border: 1px solid #ccc;
+    background-color: #962828;
+    color: #333;
+  }
+  
+  .rbc-toolbar-label {
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    color: #080808;
+    font-size: 15px;
+  }
+  
+  .rbc-header {
+    font-size: 14px;
+
+    text-transform: uppercase;
+    color: #777;
+    border: 1px solid #ccc;
+    background-color: #eee;
+  }
+  
+  .rbc-day-bg {
+    background-color: #f7f7f7;
+  }
+  
+  .rbc-time-header-content {
+    color: #777;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .rbc-time-slot {
+    border: 1px solid #302e2e;
+    background-color: #fff;
+  }
+  
+  .rbc-event {
+    background-color: #a3d3ff;
+    color: #333;
+  }
+  
+  .rbc-selected-cell {
+    background-color: #a3d3ff;
+    color: #1d1b1b;
+  }
+  .rbc-label{
+    color: black;
+    font-size: medium;
+  }
+.rbc-btn-group{
+    color: #777;
+    font-size: medium;
+}
+.rbc-time-header-content{
+font-size: 30px;
+}
+.columnheader{
+    color:#080808;
+    padding-bottom: 20px;
+}
+span{
+    color: #080808;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.rbc-event-content{
+    font-size:20px;
+}

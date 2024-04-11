@@ -1,0 +1,58 @@
+/* CSS pour l'interface contact */
+
+/* Conteneur de la page */
+
+/* Titre principal */
+.display-4 {
+    color: #fff; /* Couleur du texte */
+    text-align: center;
+}
+
+/* Sections */
+.bg-light {
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond légèrement transparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Icônes */
+.bg-primary {
+    background-color: #4718df; /* Rose */
+    color: #fff;
+}
+
+/* Liens */
+a {
+    color: #410fd6; /* Rose pour les liens */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Formulaire de contact */
+.form-control {
+    background-color: rgba(255, 255, 255, 0.9); /* Couleur de fond légèrement transparente */
+    border: 1px solid #ddd; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.btn-primary {
+    background-color: #2e18f3; /* Rose */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0b4ec1; /* Rose foncé au survol */
+}
+
+/* Ajustements pour les petits écrans */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

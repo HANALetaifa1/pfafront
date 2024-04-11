@@ -1,0 +1,145 @@
+.ord {
+  border: 2px solide black;
+  display: flex;
+  padding-left: 150px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-right: 150px;
+}
+
+/* all */
+.ordonnance {
+  /* width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  position: relative;
+  padding-bottom: 150px; */
+
+  padding-top: 50px;
+  padding-bottom: 200px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.ordonnance1 {
+  border: 1px solid black;
+  /* padding: 10px;
+  margin: 10px; */
+  width: 100%;
+  height: 100%;
+  /* background-color: #f0f0f0; */
+  font-family: Arial, sans-serif;
+  /* font-size: 16px; */
+}
+
+.contenue {
+  /* justify-content: space-between; */
+  margin-left: 100px;
+  margin-right: 15px;
+  padding-bottom: 30px;
+  /* text-align: center; */
+}
+
+.impr {
+  display: flex;
+  /* padding-top: 90px; */
+  /* padding-left: 100px; */
+
+}
+
+.tiltle1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.Ord1 {
+  padding-bottom: 50px;
+}
+
+.observation {
+  padding-right: 250px;
+}
+
+/* .details2{
+     padding-left: 150px; 
+text-align: center;
+} */
+.tot {
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: space-between; */
+}
+
+.haut {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+.po{
+  font-size: 17px;
+  font-weight: 500;
+}
+.entete {
+  /* text-align: center; */
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.inf2 {
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+
+.info-patient {
+  /* position: absolute;  */
+  top: 100px;
+  left: 50px;
+  margin-bottom: 20px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+.ordonnance-details {
+  /* position: absolute; */
+  top: 200px;
+  left: 50px;
+  margin-bottom: 20px;
+  /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.signature-tampon {
+  position: absolute;
+  /* padding-top: 20px; */
+  padding-left: 700px;
+}
+
+
+
+.H1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.H4 {
+  font-size: 20px;
+ font-weight: 0px;
+  margin-bottom: 5px;
+
+}
+
+.H3 {
+  font-size: 30px;
+  /* font-weight: bold; */
+  margin-bottom: 5px;
+  text-align: center;
+}

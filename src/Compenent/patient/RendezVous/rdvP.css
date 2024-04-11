@@ -1,0 +1,24 @@
+.prendrdv {
+    border: 2px black solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  justify-content: space-between;
+  margin: 20px 0;
+
+}
+
+    /* display: flex; */
+    /* justify-content: space-between; */
+.rdvpa{
+   padding-left: 170px;
+   padding-right: 170px;
+
+}
+.time-picker {
+    font-size: 15px;
+}
+.tourdv{
+    align-items: center;
+    padding-left: 400px;
+    padding-right: 400px;
+}

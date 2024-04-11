@@ -1,0 +1,50 @@
+.allD {
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+ 
+  
+  }
+  .tiltle11{
+    font-size: 18px;
+    text-align: center;
+  }
+
+
+
+  .details2{
+    padding-left: 200px;
+    padding-right:200px;
+       /* align-items: center; */
+  }
+  .details {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    /* padding-left: 50px; */
+    /* padding-top : 50px; */
+
+
+  }
+  
+  .span1 {
+    /* border: 1px solid lightgray;
+    padding: 2px;
+    margin: 2px; */
+    text-align: center;
+  }
+  .examen{
+    border: 1px solid black;
+    padding: 50px;
+    margin: 5px;
+    /* font-size: small; */
+
+    /* padding-left:90px; */
+  }
+  .H33 {
+    padding-left:10px ;
+    /* font-size: small; */
+    /* padding-right: 5px; */
+  }

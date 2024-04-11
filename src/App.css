@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #192440;
+  --secondary-color: #00ffad;
+  --tertiary-color: #292b2c;
+  --quaternary-color: #ffffff;
+}
+
+html {
+  font-size: 16px;
+  font-family: Ubuntu, sans-serif;
+  line-height: 1.5;
+}
+
+/* Write your code below */
+/* BANNER START */
+#banner {
+  background-image: url('./Compenent/Home/Images/backround.png');
+  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--quaternary-color);
+  padding: 6.4rem 0;
+}
+
+#banner p {
+  font-size: 2rem;
+  margin: 2.4rem 0;
+}
+
+#banner header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.Icon1{
+  padding: 80px;
+  font-size:20px;
+  font-weight:20px;
+  justify-content: space-between;
+
+}
+span {
+  font-size:40px;
+  color:rgb(255, 255, 255);
+  font-weight:500;
+}
+#banner img {
+  width: 8rem;
+}
+
+#banner a {
+  color: var(--quaternary-color);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.btn {
+  border-radius: 2.2rem;
+  padding: 1.2rem 3rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+/* BANNER END */
+/* PROTECTION START */
+.protection {
+  text-align: center;
+}
+
+.protection .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.protection .cards .card {
+  flex: 1;
+}
+
+.protection h4 {
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.protection h2 {
+  margin: 4.8rem 0;
+}
+
+/* PROTECTION END */
+
+/* Featuers start */
+.features {
+  margin-top: 7rem;
+}
+
+.features .feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4.5rem 1.5rem;
+  flex-wrap: wrap;
+}
+
+
+.features p {
+  padding-bottom: 20px;
+}
+
+.feature-1-wrapper {
+  background-image: linear-gradient(to bottom right, #ffffff 0% 50%,lightblue 50% 100%);
+  padding:20px;
+}
+
+.feature-2-wrapper {
+  background-color:lightblue;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.features img {
+  max-width: 50%;
+}
+
+.feature-2 img {
+  order: 1;
+}
+.container1 {
+  padding:25px;
+  display: flex;
+  flex-direction:column;
+  flex-wrap:column;
+}
+
+.items {
+  padding: 20px;
+  margin: 10px;
+  background-color:rgb(24, 112, 141);
+  justify-content: space-between;
+}
+/* Featuers end */
+
+.btn-outline-primary {
+  background-color: transparent;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+/* PRICING END */
+
+
+/* PARTNERS START */
+.partners {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 4.8rem 0;
+
+}
+
+/* PARTNERS END */
+
+/* CONTACT START  */
+#contact {
+  background-image: url('./Compenent/Home/Images/contact-bg-image.jpg');
+  color: var(--quaternary-color);
+  padding: 6.4rem 0;
+}
+
+#contact .container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* #contact p {
+  padding:20px;
+  padding-bottom: 20px;
+  
+  } */
+.form-groupe {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
+}
+
+.first-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.list-unstyled
+
+/* CONTACT END  */
+.container .media {
+  background: var(--primary-color);
+}
+
+/* Write your code above */
+
+h1 {
+  font-size: 7.2rem;
+  margin: 4.8rem 0;
+  line-height: 1.1;
+}
+#cherche{
+background-color: #ffffff;
+}
+
+h2 {
+  font-size: 4.5rem;
+}
+
+p,li,label {
+  font-size: 1.6rem;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+  padding-right: 700px;
+  color:beige;
+}
+.font-weight-boldp{
+  font-weight: 700;
+}
+.font-weight-bold1{
+  font-weight:700px;
+  color: antiquewhite;
+  font-weight: bold;
+  margin-bottom: 30px;
+ 
+}
+
+.font-weight-light {
+  font-weight:400;
+  font-size:700px;
+  background-color: #913480;
+  width:500px;
+  padding: 30px; 
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .feature-2 img {
+    order: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}

@@ -1,0 +1,30 @@
+.compte{
+    border: 1px solid blue;
+    text-align: center; 
+    padding-bottom:20px ;
+    padding-top:20px; 
+    padding-left:50px ;
+    padding-right:50px;
+    font-size: medium;
+
+}
+
+.tous{
+    padding-bottom:40px ;
+    padding-top:30px; 
+    padding-left:150px ;
+    padding-right:150px;
+  
+}
+.Card2{
+    display: flex;
+    flex-direction: column;
+       padding-Top :0px;
+        padding-bottom :50px;
+        padding-left: 50px;
+        margin:30px;
+        justify-content:space-around;
+        border-radius: 6px;
+        transition: 0.5s;
+}
+ 

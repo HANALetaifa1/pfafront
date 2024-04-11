@@ -1,0 +1,83 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^2.16.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/pickers": "^3.3.10",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.0",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@mui/styles": "^5.11.16",
+    "@mui/x-data-grid": "^6.4.0",
+    "@mui/x-date-pickers": "^6.4.0",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.28",
+    "jwt-decode": "^3.1.2",
+    "mui-datatables": "^4.3.0",
+    "react": "^18.2.0",
+    "react-big-calendar": "^1.6.9",
+    "react-bootstrap": "^2.7.2",
+    "react-calendar": "^4.2.1",
+    "react-calendar-datetime-picker": "^1.6.3",
+    "react-datepicker": "^4.11.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
+    "react-table": "^7.8.0",
+    "react-time-picker": "^6.1.0",
+    "react-toastify": "^9.1.2",
+    "react-virtuoso": "^4.3.5",
+    "reactstrap": "^9.2.2",
+    "recharts": "^2.5.0",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.10",
+    "sweetalert2": "^11.7.3",
+    "sweetalert2-react-content": "^5.0.7",
+    "twilio": "^4.11.0",
+    "typeface-roboto": "^1.1.13",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
